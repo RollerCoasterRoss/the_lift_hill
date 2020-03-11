@@ -1,0 +1,2 @@
+class AttractionReview < ApplicationRecord
+end
