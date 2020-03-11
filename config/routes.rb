@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   namespace :api do
+    post "/sessions" => "sessions#create"
+
     post '/users' => 'users#create'
     get '/users/:id' => 'users#show'
     patch '/users/:id' => 'users#update'
