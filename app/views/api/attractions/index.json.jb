@@ -1,0 +1,3 @@
+@attractions.map do |attraction|
+  render partial: "attraction.json.jb", locals: {attraction: attraction}
+end

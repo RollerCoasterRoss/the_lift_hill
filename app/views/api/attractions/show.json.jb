@@ -1,1 +1,1 @@
-show.json.jb
+render partial: "attraction.json.jb", locals: {attraction: @attraction}

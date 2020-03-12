@@ -1,0 +1,7 @@
+ {
+  id: attraction.id,
+  name: attraction.name,
+  location: attraction.location,
+  duration: attraction.duration,
+  category: attraction.category
+ }
