@@ -1,0 +1,3 @@
+@attraction_reviews.map do |attraction_review|
+  render partial: "attraction_review.json.jb", locals: { attraction_review: attraction_review }
+end

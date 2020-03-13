@@ -1,4 +1,4 @@
 class AttractionReview < ApplicationRecord
-  belongs_to :users
-  belongs_to :attractions
+  # belongs_to :users
+  # belongs_to :attractions
 end

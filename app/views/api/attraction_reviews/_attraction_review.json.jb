@@ -1,0 +1,7 @@
+{
+  body: attraction_review.body,
+  fear_factor: attraction_review.fear_factor,
+  fun_factor: attraction_review.fun_factor,
+  user_id: attraction_review.user_id,
+  attraction_id: attraction_review.attraction_id
+}
